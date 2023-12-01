@@ -1,0 +1,150 @@
+.inicio{
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.inicio .painel img{
+    position: absolute;
+    top: 0;
+    width: 400px;
+    height: 400px; 
+    animation: slideInFromRight 1.5s ease-in-out, float 3s infinite ease-in-out;
+}
+
+.inicio .painel{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.conteudo{
+    width: 750px;
+    height: 500px;
+    font-weight: 500;
+    font-family: 'Kanit', serif;
+    padding-left: 50px;
+}
+
+.conteudo.conteudo-inicio {
+    animation: slideInFromTop 1.5s ease-in-out;
+}
+
+.conteudo h1{
+    font-size: 50px;
+}
+
+.palavra-destacada{
+    background: linear-gradient(45deg, #27af05, #43fc32, #1cee51, #32e080, #07eb6e );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.conteudo p{
+    line-height: 35px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 20px;
+    padding: 20px 20px 40px 0px
+}
+
+.conteudo .saiba-mais{
+    color: #14151E;
+    background: linear-gradient(45deg, #2dc707, #3fee1c, #3af75a, #07eb6e, #3af75a, #3fee1c, #3ff01b );
+    background-size: 400% 420%;
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    font-size: 25px;
+    transition: ease-in-out .4s;
+}
+
+.conteudo .saiba-mais:hover{
+    color: #fff;
+    box-shadow: 0 0 17px #23A364;
+    animation: degrade 10s linear infinite alternate;
+    transition: ease-in .3s;
+}
+
+.btn-whatsapp-pulse{
+	background: #25d366;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 0;
+	height: 0;
+	padding: 35px;
+	text-decoration: none;
+	border-radius: 50%;
+	animation: slideInFromRight 1.5s ease-in-out, pulse 1.5s infinite ease-out;
+
+}
+
+.btn-whatsapp-pulse .whats{
+    overflow: visible;
+}
+
+
+@keyframes float{
+    0%{
+        .inicio .painel img{
+            transform: translateY(0px);
+        }
+    }
+
+    50%{
+        transform: translateY(-20px);
+    }
+
+    100%{
+        .inicio .painel img{
+            transform: translateY(0);
+        }
+    }
+}
+
+@keyframes slideInFromRight{
+    0% {
+      transform: translateX(100%);
+      opacity: 0; 
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1; 
+    }
+  }
+
+  @keyframes slideInFromTop{
+    0%{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+  }
+
+  @keyframes pulse{
+	0% {
+		box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+	}
+	80% {
+		box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+	}
+}
+
+@keyframes degrade{
+    0%{
+        background-position-x: 0%;
+    }
+    
+    100%{
+        background-position: 700%;
+    }
+}

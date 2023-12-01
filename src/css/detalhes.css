@@ -1,0 +1,69 @@
+.detalhes-receita-container{
+    padding-top: 40px;
+}
+
+.detalhes-receita-container .detalhes-titulo{
+    font-family: 'Kanit';
+    text-align: center;
+    text-decoration: underline;
+}
+
+.detalhes-receita-container .ilustracao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    border-bottom: 2px solid #24C707;
+    
+}
+
+
+.detalhes-receita-container .conteudo-receita{
+    padding: 50px 0 0 30px;
+}
+.detalhes-receita-container .conteudo-receita h2{
+    font-family: 'Kanit';
+}
+
+.detalhes-receita-container .conteudo-receita ul{
+    padding: 0 0 30px 30px;
+    line-height: 30px;
+}
+
+.detalhes-receita-container .conteudo-receita li{
+    font-family: 'Roboto Slab';
+    list-style-type: disc;
+}
+
+.detalhes-receita-container .conteudo-receita .lista-preparo li{
+    list-style-type: decimal;
+}
+
+.detalhes-receita-container .conteudo-receita p{
+    font-family: 'Roboto Slab'
+}
+
+.detalhes-receita-container .btn-voltar{
+    display: flex;
+    justify-content: center;
+    font-family: 'Kanit';
+    font-size: 25px;
+    padding: 30px 0 30px 0;
+}
+
+.detalhes-receita-container .btn-voltar a{
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    background-color: #95E937;
+    border-radius: 20px;
+    color: #14151E;
+    transition: .2s ease-in-out;
+}
+
+.detalhes-receita-container .btn-voltar a:hover{
+    color: #fff;
+    box-shadow: 0 0 17px #23A364;
+    background-color: #24C707;
+    transition: ease-in-out .3s;
+}

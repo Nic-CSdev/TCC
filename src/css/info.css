@@ -1,0 +1,33 @@
+.informacoes{
+    padding: 30px 0 0 30px;
+}
+
+.informacoes h1{
+    text-decoration: underline;
+    font-family: 'Kanit';
+    text-align: center;
+}
+
+.informacoes h2{
+    font-family: 'Kanit';
+    padding-top: 40px;
+}
+
+.informacoes > h2 > strong{
+    color: #95E937;
+}
+
+.informacoes p{
+    padding: 30px 0 40px 0;
+    font-family: 'Roboto Slab';
+}
+
+.informacoes .lista{
+    padding-left: 30px;
+}
+
+.informacoes .lista .item{
+    list-style-type: decimal;
+    font-family: 'Roboto Slab';
+}
+

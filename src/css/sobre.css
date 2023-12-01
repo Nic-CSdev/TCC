@@ -1,0 +1,26 @@
+.sobre-nos{
+    display: flex;
+}
+
+.sobre-nos .logo img{
+    width: 500px;
+    height: 500px;
+}
+
+.quem-somos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 700px;
+    
+}
+
+.quem-somos h1{
+    color: #95E937;
+    font-family: 'Kanit';
+}
+
+.quem-somos p{
+    font-family: 'Roboto Slab';
+}

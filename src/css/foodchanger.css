@@ -1,0 +1,72 @@
+
+.food-changer h1{
+    padding: 1em 0;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Kanit';
+    font-size: 3em;
+}
+
+.food-changer h2{
+    font-family: 'Kanit';
+    text-decoration: underline;
+    font-size: 2.4em;
+    padding-left: 1em;
+    padding-top: 2em;
+}
+
+.food-changer p{
+    font-family: 'Roboto Slab';
+    font-size: 1.3em;
+    padding: 1em 0em 2em 2em;
+}
+
+.food-changer .macronutriente-selector{
+    padding-left: 2em;
+    padding-bottom: 2em;
+}
+
+.food-changer .macronutriente-selector h2{
+    font-family: 'Kanit';
+    text-decoration: none;
+    font-size: 2em;
+    padding: 2em 2em 1em 0;
+}
+
+
+
+.food-changer .macronutriente-selector button{
+    background: linear-gradient(to bottom, #4CAF50, #2bec35d3);
+    font-family: 'Kanit';
+    font-size: 1.2em;
+    padding: .7em;
+    margin: .5em;
+    border: none;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+}
+
+.food-changer .macronutriente-selector button:hover{
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    color: #fff;
+}
+
+.food-changer .macronutriente-selector #foodList{
+    padding: 5em 0;
+    margin-left: 3em;
+    
+}
+
+.food-changer .macronutriente-selector #foodList ul{
+    gap: 1.7em;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto Slab';
+}
+
+.food-changer .macronutriente-selector #foodList li{
+    width: calc(28.9999% - 1.7em);
+    border-bottom: 2px solid green;
+    padding: 1.2em;
+}

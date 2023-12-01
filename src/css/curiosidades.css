@@ -1,0 +1,32 @@
+.curiosidades{
+    padding: 40px 0 40px 0;
+}
+
+.curiosidades .curiosidade{
+    display: flex;
+    
+}
+
+.curiosidades .curiosidade:nth-child(4) .ilustracao img{
+    height: 340px;
+}
+
+.curiosidades .curiosidade .conteudo p{
+    line-height: 30px;
+}
+
+.curiosidades .conteudo .btn-curiosidade{
+    background-color: #95E937;
+    padding: 10px;
+    font-size: 20px;
+    color: #14151E;
+    border-radius: 10px;
+    transition: ease-in-out .2s;
+}
+
+.curiosidades .conteudo .btn-curiosidade:hover{
+    color: #fff;
+    background-color: #24C707;
+    transition: ease-in-out .2s;
+}
+

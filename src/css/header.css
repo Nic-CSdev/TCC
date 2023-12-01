@@ -1,0 +1,70 @@
+.logo{
+    margin-left: 20px;
+}
+
+.logo img{
+    padding-top: 20px;
+    width: 170px;
+    height: 170px;
+}
+
+.header .botao{
+    position: absolute;
+    padding-right: 30px;
+    padding-top: 20px;
+    top: 0;
+    right: 0;
+}
+
+.header .botao #btn-mudar-tema{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.header .botao #btn-mudar-tema .imagem-botao{
+    filter: invert(1);
+}
+
+.lua, .sol{
+    width: 35px;
+    height: 35px;
+}
+
+.header .botao .icone{
+    font-size: 25px;
+}
+
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #24C707;
+    background-color: #14151E;
+}
+
+
+.navegacao .menu{
+    display: flex;
+    margin-right: 60px;
+}
+
+.navegacao .menu .item{
+    padding: 10px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Kanit';
+}
+
+.navegacao .menu .item a{
+   padding: 10px;
+   transition: ease-in-out .2s;
+}
+
+.navegacao .menu .item a:hover{
+    color: #95E937;
+    letter-spacing: 0.5px;
+    transition: .3s ease-in-out;
+}

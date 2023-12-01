@@ -1,0 +1,110 @@
+.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.parallax::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+}
+
+.parallax-bg{
+    background-image: url('../assets/frutas-legumes.jpg');
+}
+
+.parallax-bg-2{
+    background-image: url('../assets/meio-ambiente.jpg');
+}
+
+.parallax-bg-3{
+    background-image: url('../assets/cidade-ilustracao.jpg');
+}
+
+.parallax-bg-4{
+    background-image: url('../assets/famosos.jpg');
+}
+
+.parallax h1{
+    font-family: 'Kanit';
+    text-align: center;
+    padding: 0 70px 0 70px;
+}
+
+.conteudo-detalhe-curiosidade{
+    padding: 30px 20px 20px 30px;
+}
+
+.conteudo-detalhe-curiosidade p{
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+}
+
+.conteudo-detalhe-curiosidade h2{
+    font-family: 'Kanit';
+    font-size: 35px;
+    padding-top: 4rem;
+}
+
+.conteudo-detalhe-curiosidade p:last-child{
+    color: rgb(209, 204, 204);
+    font-size: 1.5em;
+}
+
+.detalhes-curiosidade-container .btn-voltar{
+    display: flex;
+    justify-content: center;
+    font-family: 'Kanit';
+    font-size: 25px;
+    padding: 30px 0 30px 0;
+}
+
+.detalhes-curiosidade-container .btn-voltar a{
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    background-color: #95E937;
+    border-radius: 20px;
+    color: #14151E;
+    transition: .2s ease-in-out;
+}
+
+.detalhes-curiosidade-container .btn-voltar a:hover{
+    color: #fff;
+    box-shadow: 0 0 17px #23A364;
+    background-color: #24C707;
+    transition: ease-in-out .3s;
+}
+
+.conteudo-detalhe-curiosidade .lista-fatos{
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+    padding: 0 50px 30px 50px;
+}
+
+.conteudo-detalhe-curiosidade .lista-fatos .item .imagem-fato{
+    display: flex;
+    padding: 2em 0 2em 0;
+}
+
+.conteudo-detalhe-curiosidade .lista-fatos .item img{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.conteudo-detalhe-curiosidade .lista-fatos .item{
+    list-style-type: decimal;
+}

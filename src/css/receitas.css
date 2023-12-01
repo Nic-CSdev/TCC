@@ -1,0 +1,23 @@
+.receitas-container{
+    padding: 40px 0 40px 0;
+}
+
+.receitas-container .receita{
+    display: flex;
+    
+}
+
+.receitas-container .conteudo .btn-receita{
+    background-color: #95E937;
+    padding: 10px;
+    font-size: 20px;
+    color: #14151E;
+    border-radius: 10px;
+    transition: ease-in-out .2s;
+}
+
+.receitas-container .conteudo .btn-receita:hover{
+    color: #fff;
+    background-color: #24C707;
+    transition: ease-in-out .2s;
+}

@@ -1,0 +1,1575 @@
+@media screen and (min-width: 1920px) {
+
+    .cabecalho .header .navegacao .menu .item {
+        font-size: 25px;
+    }
+
+    .footer .icones a {
+        font-size: 40px !important;
+    }
+
+    .footer p {
+        font-size: 25px;
+    }
+
+    .inicio {
+        height: 850px;
+    }
+
+    .inicio .painel {
+        transform: translateX(70px);
+    }
+
+    .inicio .painel img {
+        width: 670px !important;
+        height: 650px !important;
+    }
+
+    .inicio .conteudo {
+        width: 1180px;
+    }
+
+    .inicio .conteudo h1 {
+        font-size: 70px;
+    }
+
+    .inicio .conteudo p {
+        font-size: 30px;
+        line-height: 55px;
+        padding-bottom: 40px;
+    }
+
+    .inicio .conteudo a {
+        font-size: 40px;
+    }
+
+    .informacoes {
+        width: 1920px;
+    }
+
+    .informacoes h1 {
+        font-size: 70px;
+    }
+
+    .informacoes h2 {
+        font-size: 55px;
+    }
+
+    .informacoes p {
+        font-size: 33px;
+    }
+
+    .informacoes .lista .item {
+        font-size: 30px;
+    }
+
+    .sobre-nos {
+        width: 1700px;
+        height: 760px;
+        padding: 0px 0 30px 0;
+    }
+
+    .sobre-nos .logo img {
+        width: 700px !important;
+        height: 700px !important;
+    }
+
+    .sobre-nos h1 {
+        font-size: 70px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+    .sobre-nos p {
+        font-size: 35px;
+        padding-left: 10px;
+        line-height: 45px;
+    }
+
+    .receitas-container .receita {
+        padding-left: 6em;
+    }
+
+    .receitas-container .receita:nth-child(4){
+        padding-top: 3em;
+    }
+
+    .receitas-container .conteudo-receita {
+        width: 49em;
+        height: 35em;
+        padding-left: 3em;
+    }
+
+    .receitas-container .conteudo-receita h1 {
+        font-size: 3.3em;
+    }
+
+    .receitas-container .conteudo-receita p {
+        font-size: 1.9em;
+        line-height: 1.5em;
+        padding-bottom: 3em;
+    }
+
+    .receitas-container .conteudo .btn-receita{
+        font-size: 2em !important;
+    }
+
+    .receitas-container .receita .ilustracao,
+    .receitas-container .receita .ilustracao img {
+        width: 37em;
+        height: 27em;
+    }
+
+    .receitas-container .receita:nth-child(1) .ilustracao img{
+        height: 27em;
+    }
+
+    .receitas-container .receita:nth-child(3) .ilustracao img,
+    .receitas-container .receita:nth-child(4) .ilustracao img {
+        width: 37em;
+        height: 30em;
+    }
+
+    .detalhes-receita-container{
+        padding-right: 20px;
+    }
+
+    .detalhes-receita-container .detalhes-titulo{
+        font-size: 5em;
+    }
+
+    .detalhes-receita-container .btn-voltar{
+        font-size: 2.7em !important;
+    }
+
+    .detalhes-receita-container .btn-voltar a{
+        width: 6em !important;
+    }
+
+    .detalhes-receita-container .ilustracao img{
+        width: 80vw;
+        height: 100vh;
+        padding-bottom: 30px;
+        position: relative;
+       
+    }
+
+    .detalhes-receita-container .conteudo-receita p{
+        font-size: 2em;
+    }
+
+    .detalhes-receita-container .conteudo-receita ul{
+        font-size: 2em;
+    }
+
+    .detalhes-receita-container .conteudo-receita li{
+        padding-bottom: 1em;
+    }
+
+    .detalhes-receita-container .conteudo-receita h2{
+        font-size: 4.7em;
+    }
+
+    .curiosidades .curiosidade {
+        padding-left: 60px;
+    }
+
+    .curiosidades .curiosidade .ilustracao,
+    .curiosidades .curiosidade .ilustracao img {
+        width: 30em;
+        height: 30em;
+    }
+
+    .curiosidades .curiosidade:nth-child(n+2):nth-child(-n+4) .ilustracao img {
+        height: 30em;
+    }
+
+    .curiosidade .conteudo.conteudo-curiosidade {
+        width: 65em;
+        height: 40em;
+    }
+
+    .curiosidades .curiosidade:nth-child(n+2):nth-child(-n+3) .conteudo p {
+        padding-bottom: 3.5em;
+    }
+
+    .curiosidades .curiosidade .conteudo h1 {
+        font-size: 3.2em;
+    }
+
+    .curiosidades .curiosidade .conteudo p {
+        font-size: 2em;
+        line-height: 1.7em !important;
+        padding-bottom: 2.5em;
+    }
+
+    .curiosidades .curiosidade .conteudo a {
+        font-size: 2.2em;
+    }
+
+    .detalhes-curiosidade-container h1 {
+        font-size: 90px;
+    }
+
+    .detalhes-curiosidade-container .conteudo-detalhe-curiosidade p {
+        font-size: 40px;
+    }
+
+    .detalhes-curiosidade-container .conteudo-detalhe-curiosidade h2 {
+        font-size: 60px;
+    }
+
+    .detalhes-curiosidade-container .btn-voltar a {
+        width: 300px !important;
+        font-size: 50px !important;
+    }
+
+    .food-changer{
+        height: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 1440px) {
+
+    .cabecalho .header .botao {
+        right: 0;
+        padding-left: 10px;
+    }
+
+    .cabecalho .header .navegacao .menu .item {
+        font-size: 18px;
+        margin-right: 18px;
+    }
+
+    .informacoes {
+        padding-left: 50px !important;
+        width: 1350px;
+    }
+
+    .informacoes h1 {
+        font-size: 50px;
+    }
+
+    .informacoes h2 {
+        font-size: 45px;
+    }
+
+    .informacoes p {
+        font-size: 25px;
+    }
+
+    .informacoes .lista .item {
+        font-size: 25px;
+    }
+
+    .sobre-nos {
+        width: 1350px;
+        height: 650px;
+        padding: 30px 0 30px 0;
+    }
+
+
+    .sobre-nos h1 {
+        font-size: 60px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+    .sobre-nos p {
+        font-size: 30px;
+        padding-left: 10px;
+        line-height: 45px;
+    }
+
+    .receitas-container .receita {
+        padding-left: 3em;
+    }
+
+    .receitas-container .conteudo-receita {
+        width: 40em;
+        height: 30em;
+        padding-left: 3em;
+    }
+
+    .receitas-container .conteudo-receita h1 {
+        font-size: 2.7em;
+    }
+
+    .receitas-container .conteudo-receita p {
+        font-size: 1.4em;
+        line-height: 1.5em;
+        padding-bottom: 3.7em;
+    }
+
+    .receitas-container .conteudo .btn-receita{
+        font-size: 1.5em !important;
+    }
+
+    .receitas-container .receita .ilustracao,
+    .receitas-container .receita .ilustracao img {
+        width: 27em;
+        height: 22em;
+    }
+
+    .receitas-container .receita:nth-child(1) .ilustracao img{
+        height: 23em;
+    }
+
+    .receitas-container .receita:nth-child(3) .ilustracao img,
+    .receitas-container .receita:nth-child(4) .ilustracao img {
+        width: 27em;
+        height: 23em;
+    }
+
+    .detalhes-receita-container{
+        padding-right: 20px;
+    }
+
+    .detalhes-receita-container .detalhes-titulo{
+        font-size: 3.7em;
+    }
+
+    .detalhes-receita-container .ilustracao img{
+        width: 80vw;
+        height: 100vh;
+        padding-bottom: 30px;
+        position: relative;
+       
+    }
+
+    .detalhes-receita-container .conteudo-receita p{
+        font-size: 1.4em;
+    }
+
+    .detalhes-receita-container .conteudo-receita ul{
+        font-size: 1.35em;
+    }
+
+    .detalhes-receita-container .conteudo-receita li{
+        padding-bottom: 1em;
+    }
+
+    .detalhes-receita-container .conteudo-receita h2{
+        font-size: 3em;
+    }
+
+    .curiosidades .curiosidade {
+        padding-left: 60px;
+    }
+
+    .curiosidades .curiosidade .ilustracao,
+    .curiosidades .curiosidade .ilustracao img {
+        width: 30em;
+        height: 27em;
+    }
+
+    .curiosidades .curiosidade:nth-child(n+2):nth-child(-n+4) .ilustracao img {
+        height: 27em;
+    }
+
+    .curiosidade .conteudo.conteudo-curiosidade {
+        width: 45em;
+        height: 35em;
+    }
+
+    .curiosidades .curiosidade:nth-child(n+2):nth-child(-n+3) .conteudo p {
+        padding-bottom: 4.5em;
+    }
+
+    .curiosidades .curiosidade .conteudo h1 {
+        font-size: 3em;
+    }
+
+    .curiosidades .curiosidade .conteudo p {
+        font-size: 1.5em;
+        line-height: 1.7em !important;
+        padding-bottom: 55px;
+    }
+
+    .curiosidades .curiosidade .conteudo a {
+        font-size: 1.7em;
+    }
+
+    .detalhes-curiosidade-container h1 {
+        font-size: 60px;
+    }
+
+
+    .detalhes-curiosidade-container .conteudo-detalhe-curiosidade p {
+        font-size: 27px;
+    }
+
+    .detalhes-curiosidade-container .conteudo-detalhe-curiosidade h2 {
+        font-size: 55px;
+    }
+
+    .detalhes-curiosidade-container .btn-voltar {
+        font-size: 1.5em !important;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .cabecalho .header .navegacao .menu .item {
+        font-size: 18px;
+        margin-right: 0;
+    }
+
+    .cabecalho .header .botao {
+        right: 0;
+        padding-left: 10px;
+    }
+
+    .informacoes {
+        width: 1280px;
+    }
+
+    .informacoes h1 {
+        font-size: 50px;
+    }
+
+    .informacoes h2 {
+        font-size: 35px;
+    }
+
+    .informacoes p {
+        font-size: 25px;
+    }
+
+    .informacoes .lista .item {
+        font-size: 23px;
+    }
+
+    .sobre-nos {
+        width: 1200px;
+        height: 39em;
+        padding: 25px 0 7em 0;
+    }
+
+
+    .sobre-nos h1 {
+        font-size: 3em;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+    .sobre-nos p {
+        font-size: 1.5em;
+        padding-left: 10px;
+        line-height: 35px;
+    }
+
+    .receitas-container .receita:nth-child(4){
+        padding-top: 1.5em;
+    }
+
+    .receitas-container .conteudo-receita {
+        width: 40em;
+        height: 25em;
+        padding-left: 3em;
+    }
+
+    .receitas-container .conteudo-receita h1 {
+        font-size: 2.4em;
+    }
+
+    .receitas-container .conteudo-receita p {
+        font-size: 1.3em;
+        line-height: 1.5em;
+        padding-bottom: 3.7em;
+    }
+
+    .receitas-container .conteudo .btn-receita{
+        font-size: 1.5em !important;
+    }
+
+    .receitas-container .receita .ilustracao,
+    .receitas-container .receita .ilustracao img {
+        width: 25em;
+        height: 21em;
+    }
+
+    .receitas-container .receita:nth-child(1) .ilustracao img{
+        height: 20em;
+    }
+
+    .receitas-container .receita:nth-child(3) .ilustracao img,
+    .receitas-container .receita:nth-child(4) .ilustracao img {
+        width: 25em;
+        height: 22em;
+    }
+
+    .curiosidades .curiosidade .ilustracao,
+    .curiosidades .curiosidade .ilustracao img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .curiosidades .curiosidade:nth-child(n+2):nth-child(-n+4) .ilustracao img {
+        height: 350px;
+    }
+
+    .curiosidade .conteudo.conteudo-curiosidade {
+        width: 680px;
+        height: 440px
+    }
+
+    .curiosidades .curiosidade:nth-child(n+2):nth-child(-n+4) .conteudo {
+        height: 450px;
+    }
+
+    .curiosidades .curiosidade .conteudo h1 {
+        font-size: 40px;
+    }
+
+    .curiosidades .curiosidade .conteudo p {
+        font-size: 20px;
+        line-height: 35px !important;
+    }
+
+    .curiosidades .curiosidade .conteudo a {
+        font-size: 25px;
+    }
+
+    .detalhes-curiosidade-container h1 {
+        font-size: 60px;
+    }
+
+    .detalhes-curiosidade-container .conteudo-detalhe-curiosidade p {
+        font-size: 25px;
+    }
+
+    .detalhes-curiosidade-container .conteudo-detalhe-curiosidade h2 {
+        font-size: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 1280){
+    .inicio .painel img {
+        display: block
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .cabecalho .header .navegacao .menu .item {
+        padding: 15px;
+        font-size: 15px;
+        margin-right: 0;
+
+    }
+
+    .inicio {
+        width: 100%;
+    }
+
+    .inicio .painel img {
+        display: none
+    }
+
+    .informacoes {
+        padding-right: 20px !important;
+        width: 100%;
+    }
+
+    .informacoes h1 {
+        font-size: 3.3em;
+    }
+
+    .informacoes h2 {
+        font-size: 2.8em;
+    }
+
+    .informacoes p {
+        font-size: 1.7em;
+    }
+
+    .informacoes .lista .item {
+        font-size: 27px;
+    }
+
+    .sobre-nos {
+        width: 1000px;
+        height: 650px;
+        padding: 30px 20px 30px 0;
+    }
+
+
+    .sobre-nos h1 {
+        font-size: 50px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+    .sobre-nos p {
+        font-size: 27px;
+        padding-left: 10px;
+        line-height: 45px;
+    }
+
+    .receitas-container .receita {
+        padding-left: 3em;
+    }
+
+    .receitas-container .conteudo-receita {
+        width: 40em;
+        height: 25em;
+        padding-left: 3em;
+    }
+
+    .receitas-container .conteudo-receita h1 {
+        font-size: 2.4em;
+    }
+
+    .receitas-container .conteudo-receita p {
+        font-size: 1.3em;
+        line-height: 1.5em;
+        padding-bottom: 3.7em;
+    }
+
+    .receitas-container .conteudo .btn-receita{
+        font-size: 1.5em !important;
+    }
+
+    .receitas-container .receita .ilustracao,
+    .receitas-container .receita .ilustracao img {
+        width: 25em;
+        height: 21em;
+    }
+
+    .receitas-container .receita:nth-child(1) .ilustracao img{
+        height: 20em;
+    }
+
+    .receitas-container .receita:nth-child(3) .ilustracao img,
+    .receitas-container .receita:nth-child(4) .ilustracao img {
+        width: 25em;
+        height: 22em;
+    }
+
+    
+    .curiosidades .curiosidade {
+        padding-left: 40px;
+    }
+
+    .curiosidades .curiosidade .ilustracao,
+    .curiosidades .curiosidade .ilustracao img {
+        width: 370px;
+        height: 370px;
+    }
+
+    .curiosidade .conteudo.conteudo-curiosidade {
+        width: 600px;
+        height: 500px;
+    }
+
+    .curiosidades .curiosidade:nth-child(n+2):nth-child(-n+4) .conteudo p {
+        padding-bottom: 110px;
+    }
+
+    .curiosidades .curiosidade .conteudo h1 {
+        font-size: 35px;
+    }
+
+    .curiosidades .curiosidade .conteudo p {
+        font-size: 22px;
+        padding-top: 20px;
+        line-height: 35px !important;
+    }
+
+    .curiosidades .curiosidade .conteudo a {
+        font-size: 25px;
+    }
+
+    .detalhes-curiosidade-container h1 {
+        font-size: 60px ;
+    }
+
+    .detalhes-curiosidade-container .conteudo-detalhe-curiosidade p {
+        font-size: 30px;
+    }
+
+    .detalhes-curiosidade-container .conteudo-detalhe-curiosidade h2 {
+        font-size: 40px;
+    }
+
+    .detalhes-curiosidade-container .btn-voltar {
+        font-size: 30px !important;
+    }
+
+    .food-changer p{
+        font-size: 1.3em;
+        padding: 1em 0em 2em 2em;
+        margin-right: 2em;
+    }
+
+    .food-changer .macronutriente-selector #foodList li{
+        width: calc(30.9999% - 1.3em) !important;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .cabecalho .header .botao {
+        left: 0;
+        padding-left: 10px;
+    }
+
+    .cabecalho .navegacao {
+        display: none;
+    }
+
+    .inicio {
+        display: flex;
+        align-items: center;
+        padding-right: 20px;
+        height: 52em;
+    }
+
+    .inicio .painel img {
+        display: none
+    }
+
+    .inicio .conteudo {
+        padding-left: 0;
+        padding-right: 20px;
+        width: 100%;
+    }
+
+    .inicio .conteudo h1 {
+        font-size: 3em;
+    }
+
+    .inicio .conteudo p {
+        font-size: 1.3em;
+        line-height: 35px;
+    }
+
+    .inicio .conteudo a {
+        font-size: 25px;
+    }
+
+    .informacoes {
+        padding-right: 20px !important;
+        width: 100%;
+    }
+
+    .informacoes h1 {
+        text-align: left !important;
+        font-size: 3em;
+    }
+
+    .informacoes h2 {
+        font-size: 2.3em;
+    }
+
+    .informacoes p {
+        font-size: 1.5em;
+    }
+
+    .informacoes .lista .item {
+        font-size: 1.5em;
+    }
+
+    .sobre-nos {
+        justify-content: center;
+        align-items: center;
+        width: 750px;
+        height: 51em;
+        padding: 30px 0 30px 0;
+    }
+
+    .sobre-nos .logo img {
+        display: none;
+    }
+
+    .sobre-nos h1 {
+        font-size: 50px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+    .sobre-nos p {
+        font-size: 30px;
+        padding-left: 10px;
+        line-height: 45px;
+    }
+
+
+    .receitas-container .receita {
+        padding-left: 1.3em;
+    }
+
+    .receitas-container .conteudo-receita {
+        width: 30em;
+        height: 23em;
+        padding-left: 2em;
+    }
+
+    .receitas-container .conteudo-receita h1 {
+        font-size: 1.8em;
+    }
+
+    .receitas-container .conteudo-receita p {
+        font-size: 1.15em;
+        line-height: 1.5em;
+        padding-bottom: 2em;
+    }
+
+    .receitas-container .receita .ilustracao,
+    .receitas-container .receita .ilustracao img {
+        width: 20em;
+        height: 17em;
+    }
+
+    .receitas-container .receita:nth-child(1) .ilustracao img{
+        height: 16em;
+    }
+
+    .receitas-container .receita:nth-child(3) .ilustracao img,
+    .receitas-container .receita:nth-child(4) .ilustracao img {
+        width: 20em;
+        height: 17em;
+    }
+
+    .detalhes-receita-container .ilustracao img{
+        width: 80vw;
+        height: 80vh;
+    }
+
+    .curiosidades .curiosidade {
+        padding-left: 20px;
+    }
+
+    .curiosidades .curiosidade .ilustracao,
+    .curiosidades .curiosidade .ilustracao img {
+        width: 300px;
+        height: 320px;
+    }
+
+    .curiosidades .curiosidade:nth-child(1) .ilustracao img {
+        height: 370px;
+    }
+
+    .curiosidades .curiosidade:nth-child(n+2):nth-child(-n+3) .ilustracao img {
+        height: 320px;
+    }
+
+    .curiosidades .curiosidade:nth-child(4) .ilustracao img {
+        height: 340px !important;
+    }
+
+    .curiosidade .conteudo.conteudo-curiosidade {
+        width: 32em !important;
+        height: 30em;
+    }
+
+    .curiosidades .curiosidade:nth-child(n+2):nth-child(-n+4) .conteudo {
+        width: 100%;
+        height: 25em;
+    }
+
+    .curiosidades .curiosidade:nth-child(n+2):nth-child(-n+4) .conteudo p {
+        padding-bottom: 3em;
+    }
+
+    .curiosidades .curiosidade .conteudo h1 {
+        font-size: 2em;
+    }
+
+    .curiosidades .curiosidade .conteudo p {
+        font-size: 1.3em;
+        line-height: 1.3em !important;
+    }
+
+    .curiosidades .curiosidade .conteudo a {
+        font-size: 22px;
+    }
+
+    .detalhes-curiosidade-container h1 {
+        font-size: 60px;
+    }
+
+    .detalhes-curiosidade-container .conteudo-detalhe-curiosidade p {
+        font-size: 30px;
+    }
+
+    .detalhes-curiosidade-container .conteudo-detalhe-curiosidade h2 {
+        font-size: 40px;
+    }
+
+    .dropdown .menu {
+        display: block;
+    }
+
+    .dropdown input:checked~ul {
+        display: block;
+    }
+
+    .dropdown nav {
+        position: absolute;
+        top: 8px;
+        right: 30px;
+        z-index: 10;
+    }
+
+    .dropdown nav ul {
+        width: 250px;
+        background-color: #14151E;
+        padding: 20px;
+        display: none;
+    }
+
+    .dropdown nav ul a {
+        text-align: center;
+        padding: 20px;
+        display: block;
+    }
+
+    .dropdown nav ul li a {
+        font-size: 1.7rem;
+    }
+
+    .food-changer .macronutriente-selector #foodList li{
+        width: calc(40.9999% - 1.3em) !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho .header .botao {
+        left: 0;
+        padding-left: 10px;
+    }
+
+    .cabecalho .navegacao {
+        display: none;
+    }
+
+    .inicio {
+        display: flex;
+        height: 47em;
+    }
+
+    .inicio .painel img {
+        display: none
+    }
+
+    .incio .conteudo {
+        width: 200px;
+    }
+
+    .inicio .conteudo h1 {
+        font-size: 2.8em;
+    }
+
+    .inicio .conteudo p {
+        font-size: 1.3em;
+        line-height: 1.5em;
+    }
+
+    .inicio .conteudo a {
+        font-size: 1.5em;
+    }
+
+    .informacoes {
+        padding-right: 20px !important;
+        width: 100%;
+    }
+
+    .informacoes h1 {
+        text-align: left !important;
+        font-size: 2em;
+    }
+
+    .informacoes h2 {
+        font-size: 1.7em;
+    }
+
+    .informacoes p {
+        font-size: 1.2em;
+    }
+
+    .informacoes .lista .item {
+        font-size: 1em;
+    }
+
+    .sobre-nos {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 42em;
+        padding: 30px 0 30px 0;
+    }
+
+    .sobre-nos .logo img {
+        display: none;
+    }
+
+    .sobre-nos h1 {
+        font-size: 50px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+    .sobre-nos p {
+        font-size: 30px;
+        padding-left: 10px;
+        line-height: 45px;
+    }
+
+    .receitas-container .receita {
+        padding-left: 1.3em;
+    }
+
+    .receitas-container .conteudo-receita {
+        width: 40em;
+        height: 27em;
+        padding-left: 5em;
+    }
+
+    .receitas-container .conteudo-receita h1 {
+        font-size: 2.5em ;
+    }
+
+    .receitas-container .conteudo-receita p {
+        font-size: 1.4em;
+        line-height: 1.5em;
+        padding-bottom: 2em;
+    }
+
+    .receitas-container .receita .ilustracao,
+    .receitas-container .receita .ilustracao img {
+        display: none;
+    }
+
+    .detalhes-receita-container .detalhes-titulo{
+        font-size: 3em;
+    }
+
+    .detalhes-receita-container .ilustracao img{
+        height: 70vh;
+    }
+
+    .detalhes-receita-container .conteudo-receita h2{
+        font-size: 2.7em;
+    }
+
+    .curiosidades .curiosidade {
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+
+    .curiosidades .curiosidade .ilustracao,
+    .curiosidades .curiosidade .ilustracao img {
+        display: none;
+    }
+
+    .curiosidade .conteudo.conteudo-curiosidade {
+        padding-right: 20px;
+        width: 100% !important;
+        height: 30em;
+    }
+
+    .curiosidades .curiosidade:nth-child(n+2):nth-child(-n+4) .conteudo p {
+        padding-bottom: 3em;
+    }
+
+    .curiosidades .curiosidade .conteudo h1 {
+        font-size: 2.3em;
+    }
+
+    .curiosidades .curiosidade .conteudo p {
+        font-size: 1.5em;
+        line-height: 1.3em !important;
+    }
+
+    .curiosidades .curiosidade .conteudo a {
+        font-size: 1.2em;
+    }
+
+    .detalhes-curiosidade-container h1 {
+        font-size: 60px;
+    }
+
+    .detalhes-curiosidade-container .conteudo-detalhe-curiosidade p {
+        font-size: 30px;
+    }
+
+    .detalhes-curiosidade-container .conteudo-detalhe-curiosidade h2 {
+        font-size: 40px;
+    }
+
+    .dropdown .menu {
+        display: block;
+    }
+
+    .dropdown input:checked~ul {
+        display: block;
+    }
+
+    .dropdown nav {
+        position: absolute;
+        top: 8px;
+        right: 30px;
+        z-index: 10;
+    }
+
+    .dropdown nav ul {
+        width: 250px;
+        background-color: #14151E;
+        padding: 20px;
+        display: none;
+    }
+
+    .dropdown nav ul a {
+        text-align: center;
+        padding: 20px;
+        display: block;
+    }
+
+    .dropdown nav ul li a {
+        font-size: 1.7rem;
+    }
+
+    .food-changer .macronutriente-selector #foodList li{
+        width: calc(46.9999% - 1.3em) !important;
+        padding: .5em !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cabecalho .header .botao {
+        left: 0;
+        padding-left: 10px;
+    }
+
+    .cabecalho .navegacao {
+        display: none;
+    }
+
+    .cabecalho .header .logo {
+        margin-left: 40px;
+    }
+
+    .inicio {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .inicio .painel img {
+        display: none
+    }
+
+    .inicio .conteudo {
+        padding-left: 20px;
+    }
+
+    .inicio .conteudo h1 {
+        text-align: left;
+        font-size: 2em;
+    }
+
+    .inicio .conteudo a {
+        font-size: 20px;
+    }
+
+    .inicio .conteudo p {
+        padding-top: 25px;
+        font-size: 1.1em;
+        line-height: normal;
+    }
+
+    .informacoes {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        width: 100%;
+    }
+
+    .informacoes h1 {
+        text-align: left !important;
+        font-size: 35px;
+    }
+
+    .informacoes h2 {
+        font-size: 1.7em;
+    }
+
+    .informacoes p {
+        font-size: 1em;
+    }
+
+    .informacoes .lista .item {
+        font-size: 1em;
+    }
+
+    .sobre-nos {
+        width: 350px;
+        height: 650px;
+        padding: 30px 0 30px 0;
+    }
+
+    .sobre-nos .logo img {
+        display: none;
+    }
+
+    .sobre-nos h1 {
+        font-size: 40px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+    .sobre-nos p {
+        font-size: 20px;
+        padding-left: 10px;
+        line-height: 35px;
+    }
+
+    .receitas-container .receita {
+        display: flex;
+    }
+
+    .receitas-container .receita:nth-child(n+2):nth-child(-n+4) .conteudo-receita{
+        height: 23em ;
+    }
+
+    .receitas-container .conteudo-receita {
+        width: 50em;
+        height: 20em;
+        padding-left: 0 !important;
+    }
+
+    .receitas-container .conteudo-receita h1 {
+        font-size: 2em ;
+    }
+
+    .receitas-container .conteudo-receita p {
+        font-size: 1em;
+        line-height: 1.3em;
+        padding-bottom: 2em;
+    }
+
+    .receitas-container .receita .ilustracao,
+    .receitas-container .receita .ilustracao img {
+        display: none;
+    }
+
+    .detalhes-receita-container{
+        padding-right: 20px;
+    }
+
+    .detalhes-receita-container .detalhes-titulo{
+        font-size: 2.7em;
+    }
+
+    .detalhes-receita-container .ilustracao img{
+        width: 80vw;
+        height: 40vh;
+        padding-bottom: 30px;
+        position: relative;
+       
+    }
+
+    .detalhes-receita-container .conteudo-receita p{
+        font-size: 1.4em;
+    }
+
+    .detalhes-receita-container .conteudo-receita ul{
+        font-size: 1.35em;
+    }
+
+    .detalhes-receita-container .conteudo-receita li{
+        padding-bottom: 1em;
+    }
+
+    .curiosidades .curiosidade {
+        padding-left: 0px;
+    }
+
+    .curiosidades .curiosidade .ilustracao,
+    .curiosidades .curiosidade .ilustracao img {
+        display: none;
+    }
+
+    .curiosidade .conteudo.conteudo-curiosidade {
+        width: 500px;
+        height: 470px;
+    }
+
+    .curiosidades .curiosidade:nth-child(n+2):nth-child(-n+4) .conteudo {
+        width: 400px;
+        height: 400px;
+    }
+
+    .curiosidades .curiosidade .conteudo h1 {
+        font-size: 30px;
+    }
+
+    .detalhes-curiosidade-container h1 {
+        text-align: left !important;
+        font-size: 50px;
+    }
+
+    .detalhes-curiosidade-container .conteudo-detalhe-curiosidade p {
+        font-size: 25px;
+    }
+
+    .detalhes-curiosidade-container .conteudo-detalhe-curiosidade .lista-fatos .item img{
+        margin: auto;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+
+    .dropdown .menu {
+        display: block;
+    }
+
+    .dropdown input:checked~ul {
+        display: block;
+    }
+
+    .dropdown nav {
+        position: absolute;
+        top: 8px;
+        right: 30px;
+        z-index: 10;
+    }
+
+    .dropdown nav ul {
+        width: 250px;
+        background-color: #14151E;
+        padding: 17px;
+        display: none;
+    }
+
+    .dropdown nav ul a {
+        text-align: center;
+        padding: 20px;
+        display: block;
+    }
+
+    .restaurantes h1{
+        font-size: 1.67em !important;
+    }
+
+    .food-changer h2{
+        font-size: 2em !important;
+    }
+
+    .food-changer .macronutriente-selector #foodList li{
+        width: 100% !important;
+        margin-right: 2.5em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cabecalho .header .botao {
+        left: 0;
+        padding-left: 10px;
+    }
+
+    .cabecalho .navegacao {
+        display: none;
+    }
+
+    .cabecalho .header .logo {
+        margin-left: 40px;
+    }
+
+    .inicio {
+        display: block;
+        padding-right: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .inicio .painel img {
+        display: none
+    }
+
+    .inicio .conteudo {
+        width: 370px;
+        padding-left: 20px;
+    }
+
+    .inicio .conteudo h1 {
+        text-align: left;
+        font-size: 2em;
+    }
+
+    .inicio .conteudo a {
+        font-size: 20px;
+    }
+
+    .inicio .conteudo p {
+        padding-top: 25px;
+        font-size: 1em;
+        line-height: normal;
+    }
+
+    .informacoes {
+        width: 390px;
+    }
+
+    .informacoes h1 {
+        text-align: left !important;
+        font-size: 35px;
+    }
+
+    .informacoes h2 {
+        font-size: 30px;
+    }
+
+    .informacoes p {
+        font-size: 20px;
+    }
+
+    .informacoes .lista .item {
+        font-size: 20px;
+    }
+
+    .sobre-nos {
+        width: 350px;
+        height: 650px;
+        padding: 30px 0 30px 0;
+    }
+
+    .sobre-nos .logo img {
+        display: none;
+    }
+
+    .sobre-nos h1 {
+        font-size: 40px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+    .sobre-nos p {
+        font-size: 20px;
+        padding-left: 10px;
+        line-height: 35px;
+    }
+    
+
+    .receitas-container .conteudo.conteudo-receita {
+        margin-left: 30px;
+        width: 300px;
+        height: 350px;
+    }
+
+    .curiosidades .curiosidade {
+        padding-left: 0px;
+    }
+
+    .curiosidades .curiosidade .ilustracao,
+    .curiosidades .curiosidade .ilustracao img {
+        display: none;
+    }
+
+    .curiosidade .conteudo.conteudo-curiosidade {
+        width: 30em;
+        height: 37em;
+    }
+
+    .curiosidades .curiosidade:nth-child(n+2):nth-child(-n+4) .conteudo {
+        width: 30em;
+        height: 30em;
+    }
+
+    .curiosidades .curiosidade .conteudo h1 {
+        font-size: 2em;
+    }
+
+    .curiosidades .curiosidade .conteudo p {
+        font-size: 1.4em;
+    }
+
+    .detalhes-curiosidade-container h1 {
+        text-align: left !important;
+        font-size: 2.5em;
+    }
+
+    .detalhes-curiosidade-container .conteudo-detalhe-curiosidade p {
+        font-size: 1.3em;
+    }
+
+    .detalhes-curiosidade-container .conteudo-detalhe-curiosidade p:last-child {
+        font-size: 1.3em;
+    }
+
+    .dropdown .menu {
+        display: block;
+    }
+
+    .dropdown input:checked~ul {
+        display: block;
+    }
+
+    .dropdown nav {
+        position: absolute;
+        top: 8px;
+        right: 30px;
+        z-index: 10;
+    }
+
+    .dropdown nav ul {
+        width: 250px;
+        background-color: #14151E;
+        padding: 17px;
+        display: none;
+    }
+
+    .dropdown nav ul a {
+        text-align: center;
+        padding: 20px;
+        display: block;
+    }
+
+    .restaurantes h1{
+        font-size: 1em ;
+    }
+}
+
+@media screen and (max-width: 375px){
+    
+        .informacoes {
+            width: 100%;
+        }
+    
+        .informacoes h1 {
+            text-align: left !important;
+            font-size: 35px;
+        }
+    
+        .informacoes h2 {
+            font-size: 30px;
+        }
+    
+        .informacoes p {
+            font-size: 20px;
+        }
+    
+        .informacoes .lista .item {
+            font-size: 20px;
+        }
+
+        .btn-whatsapp-pulse{
+            font-size: 30px !important;
+            padding: 30px !important;
+        }
+
+        .food-changer .macronutriente-selector{
+            padding-left: 1.2em !important;
+        }
+
+        .food-changer .macronutriente-selector #foodList{
+            margin-left: 0 !important;
+        }
+
+        .food-changer .macronutriente-selector #foodList li{
+            margin-right: 2em;
+        }
+}

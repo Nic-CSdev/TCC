@@ -215,17 +215,43 @@
         font-size: 40px;
     }
 
+    .detalhes-curiosidade-container .conteudo-detalhe-curiosidade p:last-child {
+        font-size: 2em;
+    }
+
     .detalhes-curiosidade-container .conteudo-detalhe-curiosidade h2 {
         font-size: 60px;
     }
 
+    .detalhes-curiosidade-container  .conteudo-detalhe-curiosidade .lista-fatos .item{
+        font-size: 1.7em;
+    }
+
     .detalhes-curiosidade-container .btn-voltar a {
-        width: 300px !important;
-        font-size: 50px !important;
+        width: 320px !important;
+        font-size: 1.7em !important;
     }
 
     .food-changer{
         height: 100%;
+    }
+
+    .food-changer h2{
+        font-size: 3em !important;
+    }
+
+    .food-changer p{
+        font-size: 1.7em !important;
+        padding-right: 2em !important;
+    }
+
+    .food-changer .macronutriente-selector button{
+        padding: 1em !important;
+        font-size: 1.7em !important;
+    }
+
+    .food-changer .macronutriente-selector #foodList{
+        font-size: 1.4em !important;
     }
     
 }

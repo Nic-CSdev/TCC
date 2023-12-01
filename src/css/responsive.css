@@ -1493,7 +1493,7 @@
 
     .curiosidade .conteudo.conteudo-curiosidade {
         width: 30em;
-        height: 37em;
+        height: 34em;
     }
 
     .curiosidades .curiosidade:nth-child(n+2):nth-child(-n+4) .conteudo {
@@ -1506,7 +1506,7 @@
     }
 
     .curiosidades .curiosidade .conteudo p {
-        font-size: 1.4em;
+        font-size: 1em;
     }
 
     .detalhes-curiosidade-container h1 {
